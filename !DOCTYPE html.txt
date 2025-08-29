@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raj Kamal | Technical Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f7fa; color: #333; }
+    header { background: #0a192f; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .diagram { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; margin: 40px 20px; }
+    .box { background: white; border: 2px solid #0a192f; border-radius: 12px; padding: 20px; margin: 15px; width: 200px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; }
+    .box:hover { transform: scale(1.05); background: #e6f1ff; }
+    a { color: #0a192f; text-decoration: none; font-weight: bold; }
+    footer { background: #0a192f; color: white; text-align: center; padding: 10px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raj Kamal – From CAD to Control</h1>
+    <p>Closing the loop for propulsion systems | Control & Simulation Engineer</p>
+  </header>
+
+  <section class="diagram">
+    <div class="box">
+      <a href="#cad">CAD Model</a>
+    </div>
+    <div class="box">
+      <a href="#simscape">Simscape Plant</a>
+    </div>
+    <div class="box">
+      <a href="#control">Control Algorithm</a>
+    </div>
+    <div class="box">
+      <a href="#hil">SIL / HIL Bench Test</a>
+    </div>
+    <div class="box">
+      <a href="#embedded">Embedded Controller</a>
+    </div>
+  </section>
+
+  <section id="cad" style="padding: 20px;">
+    <h2>CAD Model Integration</h2>
+    <p>Worked on importing drone drivetrain CAD assemblies into <b>Simscape Multibody</b> for physics-based modeling and preparing subsystems for closed-loop testing.</p>
+  </section>
+
+  <section id="simscape" style="padding: 20px; background: #f0f4f8;">
+    <h2>Simscape Plant Modeling</h2>
+    <p>Built realistic subsystem models (propulsion, rotors) in <b>Simscape</b>, connected with controller blocks, enabling system-level simulations.</p>
+  </section>
+
+  <section id="control" style="padding: 20px;">
+    <h2>Control Algorithm Design</h2>
+    <p>Developed algorithms using <b>MATLAB/Simulink</b> and <b>Stateflow</b>: PID controllers, Kalman Filters, and FADEC-like loops for gas turbine dynamics.</p>
+    <p><a href="https://rjkl1214.blogspot.com/2024/10/kalman-filter-basics.html" target="_blank">Read my blog on Kalman Filters →</a></p>
+  </section>
+
+  <section id="hil" style="padding: 20px; background: #f0f4f8;">
+    <h2>SIL / HIL Bench Testing</h2>
+    <p>Experience in <b>SIL and HIL validation</b> at CSIR-NAL and current projects, ensuring real-time performance and safety verification of control systems.</p>
+  </section>
+
+  <section id="embedded" style="padding: 20px;">
+    <h2>Embedded Controller Deployment</h2>
+    <p>Converted Simulink models into C code using <b>MATLAB Coder</b>, deployed to RTOS for hardware integration and real-time validation.</p>
+  </section>
+
+  <footer>
+    <p>Raj Kamal © 2025 | <a href="RajKamal_GasTurbine_CV.pdf" style="color: #64ffda;">Download Resume (PDF)</a></p>
+  </footer>
+</body>
+</html>
